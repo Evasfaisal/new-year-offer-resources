@@ -5,6 +5,10 @@
   width: 1320px; 
       margin: auto;
 }
+body{
+    margin: 0%;
+    padding: 0%;
+}
 header{
     height: 500px;
     width: 500px;
@@ -307,4 +311,50 @@ border-radius: 0px 20px 20px 0px;
 background: rgb(255, 0, 0);
 color: whitesmoke;
 border: none;
+}
+footer{
+height:609px;
+background: #bd0f0f;
+position: relative;
+margin: 50px 0px 0px 0px;
+
+}
+.icon-parent{
+    background: #ce9191;
+height: 482px;
+width: 1320px;
+margin:100px;
+
+}
+.icon-child1{border: 1px solid whitesmoke;
+    background: #000;
+    height: 64px;
+    height: 64px;
+    background-image: url(icons/Facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-child2{  border: 1px solid whitesmoke;
+    background: #000;
+    height: 64px;
+    height: 64px;
+    background-image: url(icons/Instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-child3{  
+    border: 1px solid whitesmoke;background: #000;
+    height: 64px;
+    height: 64px;
+    background-image: url(icons/Twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-child4{ 
+    border: 1px solid whitesmoke; background: #000;
+    height: 64px;
+    height: 64px;
+    background-image: url(icons/Linkedin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
