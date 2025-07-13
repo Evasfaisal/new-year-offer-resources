@@ -1,6 +1,5 @@
-
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .all-item-center{
   width: 1320px; 
@@ -133,7 +132,6 @@ font-weight: bolder;
 .Holidays-contant{
  margin-top: 10px;
  background: #fcfeff;
-
 text-align: center;
 height: 868px;
 
@@ -194,8 +192,119 @@ left: 10px;
 color: #f00c0c;
 
 }
-.test{
-height: 200px;
-width: 200px;
-background: #000;
+.gift{
+height: 1163px;
+margin-top: 50px;
+
+}
+.git-chield{
+    display: flex;
+    justify-content: space-between;
+}
+.gift-item1{
+    width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 3.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+
+}
+.gift-item img{
+height: 100%;
+}
+.gift-item2{    width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 4.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+
+
+}
+.gift-item3{
+ width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 5.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+
+}
+.gift-item4{
+    width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 6.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+
+}
+.gift-item5{    width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 7.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+}
+.gift-item6{    width: 424px;
+height:450px;
+background-image: url(images/Rectangle\ 8.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 20px;
+margin: 12px;
+
+
+}
+.gift h2{
+    font-size: 24px;
+    color: #db0e0e;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.gift h1{  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 48px;
+
+}
+
+.subscribe{
+    margin-top: 70px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+text-align: center;
+padding: 100px;
+}
+.input-parent {
+display: flex;
+position: relative;
+left: 200px;
+padding: 20px;
+}
+.input-child input{
+width: 448px;
+height: 72px;
+border-radius: 20px 0px 0px 20px;
+border: none;
+}
+.input-child2 button{
+width: 248px;
+height: 72px;
+border-radius: 0px 20px 20px 0px;
+background: rgb(255, 0, 0);
+color: whitesmoke;
+border: none;
 }
