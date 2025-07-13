@@ -12,7 +12,7 @@ header{
     background: #ebdede;
 
     background-image:url(images/Banner\ Image.png);
-   background-size: contain;
+   background-size: cover;
 }
 
 .text{
