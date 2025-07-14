@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .all-item-center{
   width: 1320px; 
       margin: auto;
@@ -12,10 +10,7 @@ body{
 header{
     height: 500px;
     width: 500px;
-    background: #ebdede;
-
-    background-image:url(images/Banner\ Image.png);
-   background-size: cover;
+    background: #ac2626;
 }
 
 .text{
@@ -43,6 +38,11 @@ justify-content: center;
 align-items:center;
 margin-left: 120px;
 }
+
+.parent-newyear2 h1{
+color: #f82d2d;
+}
+
 .welcomediv{
 height: 600px;
 width: 1320px;
@@ -84,6 +84,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+
 .main-child{
 color: rgb(3, 2, 2);
 font-size: 32px;
@@ -314,47 +316,57 @@ border: none;
 }
 footer{
 height:609px;
-background: #bd0f0f;
-position: relative;
+background: #000000;
 margin: 50px 0px 0px 0px;
-
+display: flex;
+align-items: center;
 }
 .icon-parent{
-    background: #ce9191;
+    background: #0a0101;
 height: 482px;
 width: 1320px;
-margin:100px;
+margin:100px auto;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
-.icon-child1{border: 1px solid whitesmoke;
-    background: #000;
+.icon-child1{
+
     height: 64px;
-    height: 64px;
+  width: 100px;
     background-image: url(icons/Facebook.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
-.icon-child2{  border: 1px solid whitesmoke;
-    background: #000;
+.icon-child2{  
+
     height: 64px;
-    height: 64px;
+  width: 100px;
     background-image: url(icons/Instagram.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .icon-child3{  
-    border: 1px solid whitesmoke;background: #000;
+ 
     height: 64px;
-    height: 64px;
+    width: 100px;
     background-image: url(icons/Twitter.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .icon-child4{ 
-    border: 1px solid whitesmoke; background: #000;
+    
     height: 64px;
-    height: 64px;
+    width: 100px;
     background-image: url(icons/Linkedin.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+footer h3{
+    font-size: 48px;
+    color: #fcfeff; 
+    position: relative;
+    right: 930px;
+    top: 100px;
 }
